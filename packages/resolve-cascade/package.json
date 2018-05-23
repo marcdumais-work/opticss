@@ -5,7 +5,7 @@
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "scripts": {
-    "compile": "rm -rf dist && tsc",
+    "compile": "rm -rf dist && tsc -p tsconfig.json",
     "pretest": "yarn run compile",
     "posttest": "yarn run lint",
     "prepublishOnly": "yarn run compile && yarn run lintall",
@@ -60,7 +60,7 @@
     "css-property-parser": "^1.0.5",
     "css-size": "^4.0.0-rc.4",
     "domutils": "^1.6.2",
-    "parse5": "^4.0.0",
+    "parse5": "^5.0.0",
     "postcss": "^6.0.21",
     "specificity": "^0.3.2"
   },

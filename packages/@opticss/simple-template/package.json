@@ -5,7 +5,7 @@
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "scripts": {
-    "compile": "rm -rf dist && tsc",
+    "compile": "rm -rf dist && tsc -p tsconfig.json",
     "pretest": "yarn run compile",
     "test": "mocha dist/test --opts test/mocha.opts",
     "posttest": "yarn run lint",
@@ -43,7 +43,8 @@
     "@opticss/template-api": "^0.3.0",
     "@opticss/util": "^0.3.0",
     "@types/random-js": "^1.0.30",
-    "parse5": "^4.0.0",
+    "parse5": "^5.0.0",
+    "parse5-sax-parser": "^5.0.0",
     "postcss": "^6.0.21",
     "random-js": "^1.0.8",
     "specificity": "^0.3.2"
@@ -54,13 +55,13 @@
     "@types/mocha": "^2.2.48",
     "chai": "^4.1.2",
     "istanbul": "^0.4.5",
-    "mocha-typescript": "^1.1.9",
     "mocha": "^5.1.1",
+    "mocha-typescript": "^1.1.9",
     "remap-istanbul": "^0.11.1",
     "source-map-support": "^0.5.3",
     "tslint": "^5.10.0",
     "typedoc": "^0.11.1",
-    "typescript": "^2.8.1" 
+    "typescript": "^2.8.1"
   },
   "gitHead": "ef310cb1b10dbc90cae4f859da146863f99d940b"
 }
