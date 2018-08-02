@@ -1,0 +1,14 @@
+
+{
+   "roots":[
+        "file:///opt/ericsson-dev/multi-root-examples-vscode/opticss/",
+        "file:///opt/ericsson-dev/multi-root-examples-vscode/opticss/packages/%40opticss/attr-analysis-dsl",
+        "file:///opt/ericsson-dev/multi-root-examples-vscode/opticss/packages/%40opticss/demo-app", 
+        "file:///opt/ericsson-dev/multi-root-examples-vscode/opticss/packages/%40opticss/element-analysis",
+        "file:///opt/ericsson-dev/multi-root-examples-vscode/opticss/packages/opticss", 
+        "file:///opt/ericsson-dev/multi-root-examples-vscode/opticss/packages/resolve-cascade",
+        "file:///opt/ericsson-dev/multi-root-examples-vscode/opticss/packages/%40opticss/simple-template",
+        "file:///opt/ericsson-dev/multi-root-examples-vscode/opticss/packages/%40opticss/code-style",
+        "file:///opt/ericsson-dev/multi-root-examples-vscode/opticss/docs"
+   ]
+}
